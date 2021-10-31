@@ -3,13 +3,14 @@ using namespace std;
 
 int main() {
     //Declare variables
-    string a, b;
+    string a, b, c;
 
     //Take Inputs
     cout << "First Name:- ";
     cin >> a;
     cout << "Second Name:- ";
-    cin >> b;
+    cin >> b;   cout << "City:- "; 
+    cin >> c; 
 
     //Show Outputs
     cout << "Hello " << a << " " << b; 
